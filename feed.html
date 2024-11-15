@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - RCR</title>
+  
+  <!-- Link to Google Fonts for Russo One font -->
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+  
+  <style>
+    /* Basic Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Body Styling */
+    body {
+      font-family: 'Arial', sans-serif;
+      background: url('https://cdn.discordapp.com/attachments/1302247282397155329/1307055771804242041/image.png?ex=6738ea0b&is=6737988b&hm=29d8a04b8a472fb2249dd29befc13f834d646f02f8086b47e4a3c5896b86076e') center/cover no-repeat fixed;
+      background-attachment: fixed;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      color: white;
+      opacity: 0;
+      animation: fadeIn 1.5s forwards;
+    }
+
+    /* Keyframes for fade-in animation */
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    /* Banner Section */
+    .banner {
+      width: 100%;
+      height: 80px;
+      background-color: rgba(0, 0, 0, 0.6);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 40px;
+      padding-right: 40px;
+      opacity: 0;
+      animation: fadeIn 1.5s forwards 0.5s;
+    }
+
+    .banner-title {
+      font-family: 'Russo One', sans-serif;
+      font-size: 48px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      color: #fff;
+    }
+
+    /* Button Styling */
+    .banner-buttons {
+      display: flex;
+      gap: 15px;
+    }
+
+    .banner-button {
+      padding: 10px 20px;
+      background-color: #FF5733;
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+      text-decoration: none;
+      opacity: 0;
+      animation: fadeIn 1.5s forwards 1s;
+    }
+
+    .banner-button:hover {
+      background-color: #c14d26;
+      transform: translateY(-5px);
+    }
+
+    .banner-button:active {
+      transform: translateY(2px);
+    }
+
+    /* About Section */
+    .about {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: calc(100vh - 80px);
+      text-align: center;
+      padding: 0 20px;
+      opacity: 0;
+      animation: fadeIn 1.5s forwards 1.5s;
+    }
+
+    .about-title {
+      font-family: 'Russo One', sans-serif;
+      font-size: 60px;
+      font-weight: bold;
+      color: #fff;
+      margin-bottom: 20px;
+    }
+
+    .about-text {
+      font-family: 'Arial', sans-serif;
+      font-size: 24px;
+      font-weight: 300;
+      letter-spacing: 1px;
+      opacity: 0.8;
+      color: #fff;
+      margin-bottom: 40px;
+    }
+
+    /* Button Styling */
+    .cta-button {
+      padding: 15px 35px;
+      background-color: #FF5733;
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+      text-decoration: none;
+      opacity: 0;
+      animation: fadeIn 1.5s forwards 2.5s;
+    }
+
+    .cta-button:hover {
+      background-color: #c14d26;
+      transform: translateY(-5px);
+    }
+
+    .cta-button:active {
+      transform: translateY(2px);
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Banner Section -->
+  <div class="banner">
+    <h1 class="banner-title">RCR</h1>
+    <!-- Button Container -->
+    <div class="banner-buttons">
+      <a href="home.html" class="banner-button">Home</a>
+      <a href="about.html" class="banner-button">About</a>
+      <a href="app.html" class="banner-button">Applications</a>
+      <a href="feed.html" class="banner-button">Feeds</a>
+    </div>
+  </div>
+
+  <!-- About Section with Centered Content -->
+  <div class="about">
+    <h1 class="about-title">Coming Soon</h1>
+    <p class="about-text">COMING SOON</p>
+
+    <!-- Redirect button to Discord server -->
+    </a>
+  </div>
+
+</body>
+</html>
